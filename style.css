@@ -1,0 +1,91 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   background-color: #a5a6a9;
+   color: #2f292b;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-card {
+  background-color: #f45844;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 #2f292b;
+  padding-bottom: 15px;
+}
+
+.term {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #2f292b;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1em;
+  box-shadow: 1px 1px 0 #2f292b;
+  margin-bottom: 10px;
+}
+
+.searching {
+  text-align: center;
+}
+
+.results {
+  margin-top: 6px;
+  background-color: #dfe0e2;
+  border-radius: 6px;
+  box-shadow: 3px 3px 0 #2f292b;
+  padding: 20px;
+}
+
+a {
+  color: #2f292b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f45844;
+}
+
+.result + .result {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px dashed #2f292b;
+}
+
+.result {
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.result:hover {
+  background-color: white;
+}
+
+button {
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #2f292b;
+  box-shadow: 2px 2px 0 #2f292b;
+  color: white;
+}
